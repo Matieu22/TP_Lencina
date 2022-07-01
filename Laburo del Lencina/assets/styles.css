@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*aqui declaramos que el color del fondo sea de color beige pero si no quisieramos un color hariamos lo siguiente:*/
+/*background: url("lugar de procedencia de la imagen") no-repeat center center/cover;*/
+.cuerpo{
+
+    background-color: rgb(62, 88, 161);
+    color: rgba(255, 255, 255, 0.829);
+  }
+
+
+/*aqui utilizamos la funcion de id para decirle al navegador que ponga todo lo que tenga la id de de "titulo" lo ponga de color rojo*/
+#titulo{
+  color: rgb(0, 0, 0);
+}
+
+.encabezado{
+  background-color: rgb(19, 8, 83);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Renault12{
+  margin-left: 7%;
+}
+
+/*Bordeado de título*/
+#titulo{
+
+  border: 5px silver;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.parrafo{
+  margin-left: 28%; 
+}
+
+.vinculo{
+  color: white;
+  text-decoration: none;
+  margin-left: 28%;
+}
+
+.holamundo{
+  text-align: center;
+}
+
+.tabla{
+  font-family: serif;
+}

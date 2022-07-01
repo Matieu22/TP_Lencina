@@ -1,0 +1,157 @@
+<!--Para agregar un comentario en el código, se pone el texto entre estos guiones y flechas)-->
+<!DOCTYPE html>
+<html>
+<!--Cabeza de la página-->
+<head class="cabeza">
+<!--Link de CSS-->
+<link rel="stylesheet" href="assets/styles.css">        
+<!--Link de bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Título de la página-->
+    <title>Trabajo Practico</title>
+    
+    <!--Todo lo escrito en el header se encontrará en la parte superior-->
+</head>
+<header class="encabezado"><h1>Encabezado </h1></header>
+<!--todos los elementos visuales-estructurales están contenidos dentro de la etiqueta body. (Encabezados, párrafos, listas, citas, imágenes e hipervínculos).
+-->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+<body class="cuerpo">
+
+  <!--Según el número del heading, variará el tamaño de fuente-->
+    
+    <h1 class="holamundo">Hola</h1> 
+   
+    <h2 class="holamundo">Mundo</h2>
+   
+    <h3 class="holamundo">Como</h3>
+    
+    <h4 class="holamundo">Les</h4>
+  
+    <h5 class="holamundo">Va</h5>
+   
+    <h6 class="holamundo">!!!</h6>
+    <!--Espacio de texto en el que se agregó un link-->
+    <a class= "vinculo" href="https://youtu.be/6fjfLD0E5R8">Este vinculo te lleva a un video</a>
+    <hr>
+    <!--Sirve para aplicar estilo al texto o agrupar elementos en línea. Sus etiquetas son: <span> y </span>-->
+    <p class="parrafo">Este párrafo contiene unas <span style="color:rgb(255, 4, 4)">letras en rojo como renault 12</span> para usar la funcion Span</p>
+    <!--Un br es un renglon en blanco-->
+    <br>
+    
+  
+
+    
+    <br>
+    <div class="Renault12">
+      <!--Imagen agregada por un archivo.jpg-->
+      <img class="Renault12" src="assets/img/Alto auto.jpg" width="900px"/> 
+    </div>
+    <br>
+    
+  
+
+    
+    <br>
+    <hr>
+<!--UL es una lista desordenada-->
+    <ol>
+        <li><h2 style="color: blue">Azul</h2></li>
+        <li><h3 style="color: cadetblue">Azul cian</h3></li>
+        <li><h4 style="color: lightblue">Azul celeste</h4></li>
+        <li><h5 style="color: black">Negro</h5></li>
+    </ol>
+   <!--esto es una tabla,se utiliza con los comandos de table para referenciar a la estructura,tr viene de table row que seria la fila-->
+   <br>
+    
+  
+
+    
+    <br> 
+   <hr>
+    <table>
+        <tr>
+            <th class="tabla" >Esto es una tabla</th>
+        </tr>
+        <tr>
+            <th>Lista de compras</th>
+        </tr>
+        <tr> 
+            <th>Jamón</th>
+        </tr> 
+     
+        <tr>
+            <th>Manteca</th>
+        </tr>
+        <tr>
+            <th>Zapallo</th>
+        </tr>
+        <tr>
+            <th>Huevos</th>
+        </tr>
+    </table>
+
+    <hr>
+    <br
+    <!--El formulario no es más que una página escrita en HTML como cualquier otra. Lo que la hace diferente es que permite capturar datos del usuario varias maneras: directamente desde el teclado, escogiendo un valor de una lista desplegable o seleccionando una opción desde botones fijos o de todas ellas combinadas.-->
+    <form action="/formulario" method="POST">
+        <!--Pones el nombre de la persona-->
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre"  name="Nombre" placeholder="Pone tu nombre"/>
+        <hr>
+        <!--es un texto que remplaza los caracteres por * -->
+        <label for="Contraseña"> Contraseña:</label>
+        <input type="password" id="Contraseña"  name="Contraseña" placeholder="Pone tu contraseña"/>
+        
+        <hr>
+        <!--Pones un email-->
+        <label for="Email"> Email: </label>
+        <input type="Email"id="Email"  name="Email" placeholder="Pone tu Email"/>
+        
+        <hr>
+        <!--el radio es un circulo que solo permite seleccionar una opcion-->
+        <label for="radio"> Radio:</label>
+        <input type="radio" /> 
+        
+        <hr>
+        <!--el checkbox es un cuadrado que permite multiples selecciones-->
+        <p>Estas son Checkbox</p>
+        <br>
+        <label for="checkbox"> Opción 1:</label>        
+        <input type="checkbox" /> 
+        <br>
+        <label for="checkbox"> Opción 2:</label>        
+        <input type="checkbox" /> 
+        <br>
+        <label for="checkbox"> Opción 3:</label>        
+        <input type="checkbox" /> 
+        <hr>
+        <!--Sube archivos a la computadora-->
+        <label for="file"> Selecciona un archivo</label>
+        <input type="file" /> 
+        
+        <hr>
+    </form>
+<!--La etiqueta section es el conjunto de divs.-->
+    
+<section class="holamundo">
+    <h2>Section </h2>
+</section>
+    <hr>
+<!--Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la indicación..-->
+<article class="holamundo">
+    <h2>Article</h2>
+</article>
+    <hr>
+</body>
+<footer class="holamundo">
+<!--El footer, al contrario del header, es el contenido dentro del pie de página-->
+   <h1>Footer</h1>
+   <h2>---------------------------------------------------------------------------------------------------</h2>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
